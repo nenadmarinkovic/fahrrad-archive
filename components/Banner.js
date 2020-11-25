@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import ScrollIntoView from "react-scroll-into-view";
 import {
   BannerWrap,
@@ -27,7 +26,7 @@ function Banner() {
               <ButtonContact> Kontakt </ButtonContact>
             </ScrollIntoView>
           </TextWrap>
-          <Fade delay={500} duration={3000}>
+      
             <SVG
               width="857"
               height="481"
@@ -1276,7 +1275,7 @@ function Banner() {
                 fill="#78541C"
               />
             </SVG>
-          </Fade>
+  
         </Illustration>
       </div>
     </BannerWrap>

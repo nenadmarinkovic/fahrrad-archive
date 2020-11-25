@@ -651,23 +651,35 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	border: 1px solid #666;
 	}
 
+.leaflet-tooltip-pane {
+	position: absolute;
+    /* top: 0; */
+    bottom: 0;
+	top: -75px;
+    left: 188px;
+    transform: translate(-50%, -50%);
+}
+
 
 /* Tooltip */
 /* Base styles for the element that has a tooltip */
 .leaflet-tooltip {
 	position: absolute;
-	padding: 6px;
+	padding: 20px;
 	background-color: #fff;
 	border: 1px solid #fff;
 	border-radius: 3px;
 	color: #222;
-	white-space: nowrap;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 	pointer-events: none;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+	width: 320px;
+	text-align: center;
+	border-radius: 20px;
+    background-color: aliceblue;
 	}
 .leaflet-tooltip.leaflet-clickable {
 	cursor: pointer;
@@ -682,6 +694,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	border: 6px solid transparent;
 	background: transparent;
 	content: "";
+	display: none;
 	}
 
 /* Directions */
