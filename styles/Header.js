@@ -44,6 +44,7 @@ export const HeaderLogo = styled.div`
   align-items: center;
   justify-content: space-between;
   color: white;
+  cursor: pointer;
 `;
 
 export const SVGShape = styled.svg`

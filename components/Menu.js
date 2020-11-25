@@ -65,7 +65,7 @@ const Menu = ({ open }) => {
           <HeadLink>Öffnungszeiten</HeadLink>
         </ScrollIntoView>
 
-        <Link to="/impressum">
+        <Link href="/impressum">
           <HeadLink>Impressum</HeadLink>
         </Link>
 

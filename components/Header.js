@@ -12,8 +12,8 @@ import {
   HeadLink,
 } from "../styles/Header";
 import ScrollIntoView from "react-scroll-into-view";
-// import Menu from "./Menu";
-// import Burger from "./Burger";
+import Menu from "./Menu";
+import Burger from "./Burger";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -44,10 +44,10 @@ export default function Header() {
   return (
     <>
       <div ref={node}>
-        {/* <Burger open={open} setOpen={setOpen} />
-        <Menu open={open} setOpen={setOpen} /> */}
+        <Burger open={open} setOpen={setOpen} />
+        <Menu open={open} setOpen={setOpen} />
       </div>
-      {/* <Menu /> */}
+      <Menu />
       <HeaderWrap id="top">
         <div className="container">
           <HeaderContainer>
