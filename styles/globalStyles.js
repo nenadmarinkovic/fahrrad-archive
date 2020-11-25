@@ -54,6 +54,14 @@ html {
   font-weight: 700;
   color: #1F388C;
   padding-top: 20px;
+
+  @media (max-width: 780px) {
+	font-size: 33px;
+  }
+
+  @media (max-width: 480px) {
+	font-size: 26px;
+  }
 }
 
   .leaflet-container {
@@ -657,7 +665,12 @@ svg.leaflet-image-layer.leaflet-interactive path {
     bottom: 0;
 	top: -75px;
     left: 188px;
-    transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	
+	@media (max-width: 480px) {
+		top: -105px;
+		left: 255px;
+	  }
 }
 
 
@@ -679,7 +692,12 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	width: 320px;
 	text-align: center;
 	border-radius: 20px;
-    background-color: aliceblue;
+	background-color: aliceblue;
+
+	@media (max-width: 480px) {
+		width: 180px;
+	  }
+	
 	}
 .leaflet-tooltip.leaflet-clickable {
 	cursor: pointer;

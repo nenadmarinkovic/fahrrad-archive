@@ -56,7 +56,6 @@ export const SVG = styled.svg`
     margin-top: -80px;
     width: 100%;
     position: relative;
-    z-index: -10;
   }
 `;
 
