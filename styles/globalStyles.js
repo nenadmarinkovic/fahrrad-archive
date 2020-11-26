@@ -61,6 +61,7 @@ html {
 
   @media (max-width: 480px) {
 	font-size: 26px;
+	margin-top: 0;
   }
 }
 

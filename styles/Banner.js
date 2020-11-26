@@ -12,6 +12,10 @@ export const BannerWrap = styled.div`
   @media (max-width: 1130px) {
     margin-top: 0;
   }
+
+  @media (max-width: 480px) {
+    padding-bottom: 0;
+  }
 `;
 
 export const TextWrap = styled.div`
@@ -38,6 +42,10 @@ export const MainText = styled.h1`
   color: #1f388c;
   font-size: 64px;
   font-weight: 700;
+
+  @media (max-width: 480px) {
+    font-size: 34px;
+  }
 `;
 
 export const SubText = styled.h6`
@@ -56,6 +64,10 @@ export const SVG = styled.svg`
     margin-top: -80px;
     width: 100%;
     position: relative;
+  }
+
+  @media (max-width: 480px) {
+    height: 340px;
   }
 `;
 
