@@ -1,4 +1,4 @@
-### Flickschuh Wien - Bike Service in Vienna, Austria
+### Flickschuh Wien
 
 Created with React, Nextjs, styled-components, Leaflet Map.
 
