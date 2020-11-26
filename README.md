@@ -1,6 +1,4 @@
-#### 🚲
+### Flickschuh Wien - Bike Service
 
-#### Flickschuh Wien
-
-Created with React, Nextjs, styled-components, Leaflet Map.
+Created with React, Nextjs, styled-components, Leaflet Map. 🚲
 
