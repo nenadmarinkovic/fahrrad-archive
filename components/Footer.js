@@ -146,7 +146,7 @@ function Footer() {
             className="created"
             rel="noreferrer"
             target="_blank"
-            href="https://nenadmarinkovic.vercel.app"
+            href="https://nenadmarinkovic.com"
           >
             nenadmarinkovic.com
           </a>
