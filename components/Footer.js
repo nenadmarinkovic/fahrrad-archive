@@ -63,7 +63,7 @@ function Footer() {
             </FlexLeft>
 
             <FlexRight>
-              <ItemName>Telephone/SMS/Whatsapp/Signal/Telegram</ItemName>
+              <ItemName>Tel/SMS/Whatsapp/Signal/Telegram</ItemName>
               <Item>+43 650 4842222</Item>
               <ItemName>Email:</ItemName>
               <Item>fahrradwerkstatt@flickschuh.wien</Item>
