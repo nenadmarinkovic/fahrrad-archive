@@ -7,15 +7,15 @@ function ImpressumText() {
     <div className="container-impressum">
       <Fade delay={300}>
         <ImpressumContent>
-          <Title>ANSCHRIF FLICKSCHUH</Title>
+          <Title>ANSCHRIFT FLICKSCHUH</Title>
           <Title>DES VERANTWORTLICHEN MEDIENINHABERS</Title>
           <Title>HEINRICH FLICKSCHUH</Title>
           <Paragraph>fahrradwerkstatt.flickschuh e.U.</Paragraph>
           <Paragraph>Hetzendorfer Str. 81 1120 Wien</Paragraph>
           <Paragraph>ÖSTERREICH / AUSTRIA</Paragraph>
-          <Paragraph>Fon +43-650-484-22-22</Paragraph>
+          <Paragraph>Telefon +43-650-484-22-22</Paragraph>
           <Paragraph>fahrradwerkstatt@flickschuh.wien</Paragraph>
-          <Paragraph>Fon +43-650-484-22-22</Paragraph>
+          <Paragraph>Telefon +43-650-484-22-22</Paragraph>
           <Title>HANDELSGERICHTLICHES</Title>
           <Paragraph>
             Firmenbuch-Nr.: 527759 t (Firmenbuchgericht Wien)
