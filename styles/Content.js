@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContentWraper = styled.div`
-  margin-top: 100px;
+  margin-top: 20px;
 
   @media (max-width: 1145px) {
     margin-top: 0;
