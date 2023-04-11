@@ -63,3 +63,14 @@ export const PlusText = styled.div`
   margin-bottom: 20px;
   margin-left: 15px;
 `;
+
+export const PlusTextCentered = styled.h3`
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 2;
+  color: #1f388c;
+  margin-bottom: 20px;
+  margin-left: 15px;
+`;

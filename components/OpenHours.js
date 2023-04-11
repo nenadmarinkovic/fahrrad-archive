@@ -7,12 +7,19 @@ import {
   Time,
   TimeMI,
   PlusText,
+  PlusTextCentered,
 } from "../styles/OpenHours";
 
 function OpenHours() {
   return (
     <div className="container">
-      <h3 id="open-hours" className="content-title">Öffnungszeiten*</h3>
+      <h3 id="open-hours" className="content-title">
+        Öffnungszeiten*
+      </h3>
+      <PlusTextCentered>
+        Die Fahrradwerkstatt ist von 24. bis 29. April geschlossen.
+      </PlusTextCentered>
+
       <Items>
         <Fade bottom delay={300}>
           <Item>
@@ -37,28 +44,27 @@ function OpenHours() {
         </Fade>
         <Fade bottom delay={1400}>
           <Item>
-
-          <Day>Donnerstag</Day>
-          <div>
-            <Time>8:30 - 12:00</Time> <Time> 14:30 - 18:30</Time>
-          </div>
-        </Item>
+            <Day>Donnerstag</Day>
+            <div>
+              <Time>8:30 - 12:00</Time> <Time> 14:30 - 18:30</Time>
+            </div>
+          </Item>
         </Fade>
         <Fade bottom delay={1700}>
-        <Item>
-          <Day>Freitag</Day>
-          <div>
-            <Time>8:30 - 12:00</Time> <Time> 14:30 - 18:30</Time>
-          </div>
-        </Item>
+          <Item>
+            <Day>Freitag</Day>
+            <div>
+              <Time>8:30 - 12:00</Time> <Time> 14:30 - 18:30</Time>
+            </div>
+          </Item>
         </Fade>
         <Fade bottom delay={2000}>
-        <Item>
-          <Day>Samstag</Day>
-          <div>
-            <TimeMI>9:30 - 17:00</TimeMI>
-          </div>
-        </Item>
+          <Item>
+            <Day>Samstag</Day>
+            <div>
+              <TimeMI>9:30 - 17:00</TimeMI>
+            </div>
+          </Item>
         </Fade>
       </Items>
       <PlusText>* und nach telefonischer Vereinbarung.</PlusText>
