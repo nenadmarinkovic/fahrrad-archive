@@ -6,8 +6,7 @@ import {
   Day,
   Time,
   TimeMI,
-  PlusText,
-  PlusTextCentered,
+  PlusText
 } from "../styles/OpenHours";
 
 function OpenHours() {
@@ -16,10 +15,6 @@ function OpenHours() {
       <h3 id="open-hours" className="content-title">
         Öffnungszeiten*
       </h3>
-      <PlusTextCentered>
-        Die Fahrradwerkstatt ist von 24. bis 29. April geschlossen.
-      </PlusTextCentered>
-
       <Items>
         <Fade bottom delay={300}>
           <Item>
