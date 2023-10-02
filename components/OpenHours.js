@@ -57,7 +57,7 @@ function OpenHours() {
           <Item>
             <Day>Samstag</Day>
             <div>
-              <TimeMI>9:30 - 17:00</TimeMI>
+              <TimeMI>10:00 - 17:00</TimeMI>
             </div>
           </Item>
         </Fade>
