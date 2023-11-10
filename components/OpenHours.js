@@ -15,6 +15,7 @@ function OpenHours() {
       <h3 id="open-hours" className="content-title">
         Öffnungszeiten*
       </h3>
+     <PlusText>Von 7. - 15. November geschlossen.</PlusText>
       <Items>
         <Fade bottom delay={300}>
           <Item>
@@ -25,6 +26,7 @@ function OpenHours() {
           </Item>
         </Fade>
         <Fade bottom delay={800}>
+    
           <Item>
             <Day>Dienstag</Day>
             <div>
