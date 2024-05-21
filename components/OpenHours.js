@@ -21,7 +21,7 @@ function OpenHours() {
           <Item>
             <Day>Montag</Day>
             <div>
-              <Time>8:30 - 12:00</Time> <Time> 14:30 - 18:30</Time>
+              <Time>9:00 - 12:00</Time> <Time> 14:30 - 18:30</Time>
             </div>
           </Item>
         </Fade>
@@ -30,7 +30,7 @@ function OpenHours() {
           <Item>
             <Day>Dienstag</Day>
             <div>
-              <Time>8:30 - 12:00</Time> <Time> 14:30 - 18:30</Time>
+              <Time>9:00 - 12:00</Time> <Time> 14:30 - 18:30</Time>
             </div>
           </Item>
         </Fade>
@@ -43,7 +43,7 @@ function OpenHours() {
           <Item>
             <Day>Donnerstag</Day>
             <div>
-              <Time>8:30 - 12:00</Time> <Time> 14:30 - 18:30</Time>
+              <Time>9:00 - 12:00</Time> <Time> 14:30 - 18:30</Time>
             </div>
           </Item>
         </Fade>
