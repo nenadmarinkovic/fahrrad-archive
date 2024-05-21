@@ -15,7 +15,7 @@ function OpenHours() {
       <h3 id="open-hours" className="content-title">
         Öffnungszeiten*
       </h3>
-     <PlusText>Von 7. - 15. November geschlossen.</PlusText>
+         <PlusText>Vom 25.9.2024 an für circa 3 Wochen Urlaub/geschlossen.</PlusText>
       <Items>
         <Fade bottom delay={300}>
           <Item>
