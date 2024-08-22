@@ -1,4 +1,4 @@
-### Flickschuh Wien
+### Fahrrad Archived
 
-Created with React, Nextjs, styled-components, Leaflet Map.
+Archived website, created with React, Nextjs, styled-components, Leaflet Map.
 
